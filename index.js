@@ -24,7 +24,7 @@ connection.connect(err => {
 })
 
 app.get('/', (req, res) => {
-    res.send('Hello world...');
+    res.send('hi');
 });
 
 app.get('/get_all', (req, res) => {
